@@ -1,0 +1,46 @@
+﻿Build started 22/10/2015 14:43:30.
+     1>Project "C:\Users\Manish\Documents\Visual Studio 2013\Projects\KnapSack\KnapSack\KnapSack.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\KnapSack.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Visual Studio 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt MainGame.cpp
+         MainGame.cpp
+     1>c:\users\manish\documents\visual studio 2013\projects\knapsack\knapsack\maingame.cpp(34): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\manish\documents\visual studio 2013\projects\knapsack\knapsack\maingame.cpp(39): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\manish\documents\visual studio 2013\projects\knapsack\knapsack\maingame.cpp(43): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\manish\documents\visual studio 2013\projects\knapsack\knapsack\maingame.cpp(93): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned long', possible loss of data
+     1>c:\users\manish\documents\visual studio 2013\projects\knapsack\knapsack\maingame.cpp(108): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\manish\documents\visual studio 2013\projects\knapsack\knapsack\maingame.cpp(163): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\manish\documents\visual studio 2013\projects\knapsack\knapsack\maingame.cpp(171): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\manish\documents\visual studio 2013\projects\knapsack\knapsack\maingame.cpp(179): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\manish\documents\visual studio 2013\projects\knapsack\knapsack\maingame.cpp(182): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\manish\documents\visual studio 2013\projects\knapsack\knapsack\maingame.cpp(187): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\manish\documents\visual studio 2013\projects\knapsack\knapsack\maingame.cpp(209): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\manish\documents\visual studio 2013\projects\knapsack\knapsack\maingame.cpp(212): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\manish\documents\visual studio 2013\projects\knapsack\knapsack\maingame.cpp(224): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\manish\documents\visual studio 2013\projects\knapsack\knapsack\maingame.cpp(241): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\manish\documents\visual studio 2013\projects\knapsack\knapsack\maingame.cpp(245): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\manish\documents\visual studio 2013\projects\knapsack\knapsack\maingame.cpp(280): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\manish\documents\visual studio 2013\projects\knapsack\knapsack\maingame.cpp(343): warning C4244: 'argument' : conversion from 'Sint32' to 'float', possible loss of data
+     1>c:\users\manish\documents\visual studio 2013\projects\knapsack\knapsack\maingame.cpp(389): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\manish\documents\visual studio 2013\projects\knapsack\knapsack\maingame.cpp(395): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\manish\documents\visual studio 2013\projects\knapsack\knapsack\maingame.cpp(401): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         D:\Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Manish\Documents\Visual Studio 2013\Projects\KnapSack\Debug\KnapSack.exe" /INCREMENTAL /NOLOGO SDL2.lib SDL2main.lib SDL2test.lib opengl32.lib glew32.lib Bengine.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Manish\Documents\Visual Studio 2013\Projects\KnapSack\Debug\KnapSack.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Manish\Documents\Visual Studio 2013\Projects\KnapSack\Debug\KnapSack.lib" /MACHINE:X86 Debug\Agent.obj
+         Debug\Bullet.obj
+         Debug\Gun.obj
+         Debug\Human.obj
+         Debug\Level.obj
+         Debug\main.obj
+         Debug\MainGame.obj
+         Debug\Player.obj
+         Debug\Zombie.obj
+         KnapSack.vcxproj -> C:\Users\Manish\Documents\Visual Studio 2013\Projects\KnapSack\Debug\KnapSack.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\KnapSack.tlog\unsuccessfulbuild".
+         Touching "Debug\KnapSack.tlog\KnapSack.lastbuildstate".
+     1>Done Building Project "C:\Users\Manish\Documents\Visual Studio 2013\Projects\KnapSack\KnapSack\KnapSack.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.98

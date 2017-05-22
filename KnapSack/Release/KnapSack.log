@@ -1,0 +1,59 @@
+﻿Build started 22/10/2015 13:20:37.
+     1>Project "C:\Users\Manish\Documents\Visual Studio 2013\Projects\KnapSack\KnapSack\KnapSack.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\KnapSack.tlog\unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         D:\Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Manish\Documents\Visual Studio 2013\Projects\KnapSack\Release\KnapSack.exe" /NOLOGO SDL2.lib SDL2main.lib SDL2test.lib opengl32.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Manish\Documents\Visual Studio 2013\Projects\KnapSack\Release\KnapSack.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Manish\Documents\Visual Studio 2013\Projects\KnapSack\Release\KnapSack.lib" /MACHINE:X86 /SAFESEH Release\Agent.obj
+         Release\Bullet.obj
+         Release\Gun.obj
+         Release\Human.obj
+         Release\Level.obj
+         Release\main.obj
+         Release\MainGame.obj
+         Release\Player.obj
+         Release\Zombie.obj
+     1>Agent.obj : error LNK2001: unresolved external symbol "public: static struct Bengine::GLTexture __cdecl Bengine::ResourceManager::getTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?getTexture@ResourceManager@Bengine@@SA?AUGLTexture@2@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+     1>Agent.obj : error LNK2001: unresolved external symbol "public: void __thiscall Bengine::SpriteBatch::draw(struct glm::tvec4<float,0> const &,struct glm::tvec4<float,0> const &,unsigned int,float,struct Bengine::Color const &)" (?draw@SpriteBatch@Bengine@@QAEXABU?$tvec4@M$0A@@glm@@0IMABUColor@2@@Z)
+     1>Level.obj : error LNK2001: unresolved external symbol "void __cdecl Bengine::fatalError(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?fatalError@Bengine@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+     1>Level.obj : error LNK2001: unresolved external symbol "public: void __thiscall Bengine::SpriteBatch::renderBatch(void)" (?renderBatch@SpriteBatch@Bengine@@QAEXXZ)
+     1>Level.obj : error LNK2001: unresolved external symbol "public: void __thiscall Bengine::SpriteBatch::end(void)" (?end@SpriteBatch@Bengine@@QAEXXZ)
+     1>Level.obj : error LNK2001: unresolved external symbol "public: void __thiscall Bengine::SpriteBatch::begin(enum Bengine::GlyphSortType)" (?begin@SpriteBatch@Bengine@@QAEXW4GlyphSortType@2@@Z)
+     1>Level.obj : error LNK2001: unresolved external symbol "public: void __thiscall Bengine::SpriteBatch::init(void)" (?init@SpriteBatch@Bengine@@QAEXXZ)
+     1>Level.obj : error LNK2001: unresolved external symbol "public: __thiscall Bengine::SpriteBatch::~SpriteBatch(void)" (??1SpriteBatch@Bengine@@QAE@XZ)
+     1>Level.obj : error LNK2001: unresolved external symbol "public: __thiscall Bengine::SpriteBatch::SpriteBatch(void)" (??0SpriteBatch@Bengine@@QAE@XZ)
+     1>MainGame.obj : error LNK2001: unresolved external symbol "public: void __thiscall Bengine::InputManager::setMouseCoords(float,float)" (?setMouseCoords@InputManager@Bengine@@QAEXMM@Z)
+     1>MainGame.obj : error LNK2001: unresolved external symbol "public: void __thiscall Bengine::InputManager::releaseKey(unsigned int)" (?releaseKey@InputManager@Bengine@@QAEXI@Z)
+     1>MainGame.obj : error LNK2001: unresolved external symbol "public: void __thiscall Bengine::InputManager::pressKey(unsigned int)" (?pressKey@InputManager@Bengine@@QAEXI@Z)
+     1>MainGame.obj : error LNK2001: unresolved external symbol "public: __thiscall Bengine::InputManager::~InputManager(void)" (??1InputManager@Bengine@@QAE@XZ)
+     1>MainGame.obj : error LNK2001: unresolved external symbol "public: __thiscall Bengine::InputManager::InputManager(void)" (??0InputManager@Bengine@@QAE@XZ)
+     1>MainGame.obj : error LNK2001: unresolved external symbol "public: void __thiscall Bengine::Window::swapBuffer(void)" (?swapBuffer@Window@Bengine@@QAEXXZ)
+     1>MainGame.obj : error LNK2001: unresolved external symbol "public: int __thiscall Bengine::Window::create(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int,int,unsigned int)" (?create@Window@Bengine@@QAEHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HHI@Z)
+     1>MainGame.obj : error LNK2001: unresolved external symbol "public: __thiscall Bengine::Window::~Window(void)" (??1Window@Bengine@@QAE@XZ)
+     1>MainGame.obj : error LNK2001: unresolved external symbol "public: __thiscall Bengine::Window::Window(void)" (??0Window@Bengine@@QAE@XZ)
+     1>MainGame.obj : error LNK2001: unresolved external symbol "public: void __thiscall Bengine::GLSLProgram::unuse(void)" (?unuse@GLSLProgram@Bengine@@QAEXXZ)
+     1>MainGame.obj : error LNK2001: unresolved external symbol "public: void __thiscall Bengine::GLSLProgram::use(void)" (?use@GLSLProgram@Bengine@@QAEXXZ)
+     1>MainGame.obj : error LNK2001: unresolved external symbol "public: int __thiscall Bengine::GLSLProgram::getUniformLocation(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?getUniformLocation@GLSLProgram@Bengine@@QAEHABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+     1>MainGame.obj : error LNK2001: unresolved external symbol "public: void __thiscall Bengine::GLSLProgram::addAttribute(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?addAttribute@GLSLProgram@Bengine@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+     1>MainGame.obj : error LNK2001: unresolved external symbol "public: void __thiscall Bengine::GLSLProgram::linkShaders(void)" (?linkShaders@GLSLProgram@Bengine@@QAEXXZ)
+     1>MainGame.obj : error LNK2001: unresolved external symbol "public: void __thiscall Bengine::GLSLProgram::compileShaders(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?compileShaders@GLSLProgram@Bengine@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+     1>MainGame.obj : error LNK2001: unresolved external symbol "public: __thiscall Bengine::GLSLProgram::~GLSLProgram(void)" (??1GLSLProgram@Bengine@@QAE@XZ)
+     1>MainGame.obj : error LNK2001: unresolved external symbol "public: __thiscall Bengine::GLSLProgram::GLSLProgram(void)" (??0GLSLProgram@Bengine@@QAE@XZ)
+     1>MainGame.obj : error LNK2001: unresolved external symbol "public: void __thiscall Bengine::Camera2D::update(void)" (?update@Camera2D@Bengine@@QAEXXZ)
+     1>MainGame.obj : error LNK2001: unresolved external symbol "public: void __thiscall Bengine::Camera2D::init(int,int)" (?init@Camera2D@Bengine@@QAEXHH@Z)
+     1>MainGame.obj : error LNK2001: unresolved external symbol "public: __thiscall Bengine::Camera2D::~Camera2D(void)" (??1Camera2D@Bengine@@QAE@XZ)
+     1>MainGame.obj : error LNK2001: unresolved external symbol "public: __thiscall Bengine::Camera2D::Camera2D(void)" (??0Camera2D@Bengine@@QAE@XZ)
+     1>MainGame.obj : error LNK2001: unresolved external symbol "public: float __thiscall Bengine::FpsLimiter::end(void)" (?end@FpsLimiter@Bengine@@QAEMXZ)
+     1>MainGame.obj : error LNK2001: unresolved external symbol "public: void __thiscall Bengine::FpsLimiter::begin(void)" (?begin@FpsLimiter@Bengine@@QAEXXZ)
+     1>MainGame.obj : error LNK2001: unresolved external symbol "public: void __thiscall Bengine::FpsLimiter::setMaxFPS(float)" (?setMaxFPS@FpsLimiter@Bengine@@QAEXM@Z)
+     1>MainGame.obj : error LNK2001: unresolved external symbol "public: __thiscall Bengine::FpsLimiter::FpsLimiter(void)" (??0FpsLimiter@Bengine@@QAE@XZ)
+     1>MainGame.obj : error LNK2001: unresolved external symbol "int __cdecl Bengine::init(void)" (?init@Bengine@@YAHXZ)
+     1>Player.obj : error LNK2001: unresolved external symbol "public: bool __thiscall Bengine::InputManager::isKeyPressed(unsigned int)" (?isKeyPressed@InputManager@Bengine@@QAE_NI@Z)
+     1>Player.obj : error LNK2001: unresolved external symbol "public: struct glm::tvec2<float,0> __thiscall Bengine::Camera2D::convertScreenToWorld(struct glm::tvec2<float,0>)" (?convertScreenToWorld@Camera2D@Bengine@@QAE?AU?$tvec2@M$0A@@glm@@U34@@Z)
+     1>C:\Users\Manish\Documents\Visual Studio 2013\Projects\KnapSack\Release\KnapSack.exe : fatal error LNK1120: 37 unresolved externals
+     1>Done Building Project "C:\Users\Manish\Documents\Visual Studio 2013\Projects\KnapSack\KnapSack\KnapSack.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.18
